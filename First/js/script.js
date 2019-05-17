@@ -1,28 +1,77 @@
-a = prompt("Первое слово");
-b = prompt("Второе слово");
+// var a = prompt("a = ");
+// console.log(a);
+// if (a == 0) alert("Верно");
+// else alert("Неверно");
 
-function anagram(a, b){
-  if (a.length !== b.length) {
-    return "Эти слова не анаграммы";
-  }
-  if (a === b) {
-    return "Эти слова анаграммы";
-  }
+// var a = prompt("a = ");
+// console.log(a);
+// if (a > 0) alert("Верно");
+// else alert("Неверно");
 
-  var c = '',
-  i = 0,
-  match = 0,
-  id;
-  while(i < a.length){
-    c = a.substr(i++, 1);
-    id = b.indexOf(c);
-    if (id > -1) {
-      match++;
-      b = b.substr(0, id) + b.substr(id + 1);
-    }
-    else return "Эти слова не анаграммы";
-  }
-  if (match === a.length) return "Эти слова анаграммы";
-  else return "Эти слова не анаграммы";
-}
-alert(anagram(a, b));
+// var a = prompt("a = ");
+// console.log(a);
+// if (a < 0) alert("Верно");
+// else alert("Неверно");
+
+// var a = prompt("a = ");
+// console.log(a);
+// if (a >= 0) alert("Верно");
+// else alert("Неверно");
+
+// var a = prompt("a = ");
+// console.log(a);
+// if (a <= 0) alert("Верно");
+// else alert("Неверно");
+
+// var a = prompt("a = ");
+// console.log(a);
+// if (a != 0) alert("Верно");
+// else alert("Неверно");
+
+// var a = prompt("a = ");
+// console.log(a);
+// if (a == "test") alert("Верно");
+// else alert("Неверно");
+
+// var a = prompt("a = ");
+// console.log(a);
+// if (a === 1) alert("Верно");
+// else alert("Неверно");
+
+// var test = confirm("true или false?");
+// console.log(test);
+// if (test == true) alert("Верно");
+// else alert("Неверно");
+
+// var test = confirm("true или false?");
+// console.log(test);
+// if (test != true) alert("Верно");
+// else alert("Неверно");
+
+// var a = prompt("a = ");
+// console.log(a);
+// if (a > 0 && a < 5) alert("Верно");
+// else alert("Неверно");
+
+// var a = prompt("a = ");
+// console.log(a);
+// if (a == 0 || a == 2) {
+// 	a = +a + 7;
+// 	alert(a);
+// }
+// else {
+// 	a = a / 10;
+// 	alert(a);
+// }
+
+// var a = prompt("a = ");
+// var b = prompt("b = ");
+// console.log(a);
+// if (a <= 1 && b >= 3) alert(+a + +b);
+// else alert(a - b);
+
+// var a = prompt("a = ");
+// var b = prompt("b = ");
+// console.log(a);
+// if ((a > 2 && a < 11) || (b >= 6 && b < 14)) alert("Верно");
+// else alert("Неверно");
